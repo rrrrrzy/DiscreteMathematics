@@ -855,7 +855,7 @@ $\exists x \left(P(x)\right)$ 的量化命题的时候,
 那么当它作为论域的时候, 我们就可以省略不写.
 
 我们不加证明地给出如下的量化命题恒等式:
-\[ \forall x \left( x \in X \to P(x) \right)
+\[ \forall x \left( x \in X \Longrightarrow P(x) \right)
 \equiv \forall x \in X \left( P(x) \right),
 \quad 
 \exists x \left( x \in X \wedge P(x) \right)
@@ -1118,7 +1118,7 @@ $\exists x \left(P(x)\right)$ 的量化命题的时候,
 \end{definition}
 
 容易验证的是, 从集合 $A$ 中排除掉集合 $B$ 中的元素, 本质上是在排除集合 $A$ 与集合 $B$
-的交集中的元素 (试想, 你该怎么开出一个本来就不属于你的公司的员工), 
+的交集中的元素 (试想, 你该怎么开除一个本来就不属于你的公司的员工), 
 而对于给定的论域 $\Omega$ 来说, 别忘了它是一个确定的集合, 而不是 “宇宙中所有事物组成的全体”, 
 假设 $A,B$ 都是 $\varOmega$ 的子集, $x \in A$ 且 $x \notin B$, 实际上意味着
 $x \in A$ 且 $x \in \bar B$. 因此我们有以下
@@ -1201,6 +1201,7 @@ $x \in A$ 且 $x \in \bar B$. 因此我们有以下
 $\varOmega$ 在集合的加法和乘法中发挥着乘法单位元的作用. 在后续学习布尔代数时,
 读者应注意比较学习集合恒等式、命题等价式与布尔恒等式的联系.
 
+\break
 {\captionof{table}{集合恒等式} % 表格标题
 \label{集合恒等式}
 \begin{longtable}{p{0.33\textwidth}|c||p{0.33\textwidth}|c}
