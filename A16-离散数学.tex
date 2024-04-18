@@ -458,7 +458,7 @@ $p$ 是一个逻辑变量. 如果对于这些命题变元的每一个指派, $p$
 
 \subsubsection{逻辑函数的数量}
 
-根据逻辑运算符的概念, 我们能够看出逻辑运算符的数量实际上参与运算的逻辑变量的数量是相互对应的.
+根据逻辑运算符的概念, 我们能够看出逻辑运算符的数量实际上与参与运算的逻辑变量的数量是相互对应的.
 根据组合数学的知识可以知道, 一个逻辑变元对应 $2$ 种指派, 逻辑变元的取值又有 $2$ 种可能,
 所以一元逻辑函数一共有 $2^2 = 2^{2^1}= 4$ 个, 我们分别用 $L_1, L_2, L_3, L_4$ 来表示:
 {\captionof{table}{一元逻辑函数} % 表格标题
@@ -548,7 +548,7 @@ $L_{10}$ 实际上是 $x \leftrightarrow y$, 而 $L_{7}$ 则是它的否定, 即
 \end{example}
 
 \begin{example}
-    {\kaishu 张小宝是三好生, 它是北京人或河北人}. 设 $p$ 为张小宝是三好生,
+    {\kaishu 张小宝是三好生, 他是北京人或河北人}. 设 $p$ 为张小宝是三好生,
         $q$ 表示张小宝是北京人, $r$ 表示他来自河北. 这里的逗号显然表示了并列关系,
         因此应该取 $p \wedge (q \vee r)$.
 \end{example}
@@ -855,7 +855,7 @@ $\exists x \left(P(x)\right)$ 的量化命题的时候,
 那么当它作为论域的时候, 我们就可以省略不写.
 
 我们不加证明地给出如下的量化命题恒等式:
-\[ \forall x \left( x \in X \Longrightarrow P(x) \right)
+\[ \forall x \left( x \in X \to P(x) \right)
 \equiv \forall x \in X \left( P(x) \right),
 \quad 
 \exists x \left( x \in X \wedge P(x) \right)
